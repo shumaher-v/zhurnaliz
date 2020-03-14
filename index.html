@@ -74,36 +74,7 @@ function addAllColumnHeaders(myList, selector) {
   return columnSet;
 }
    
-</script>
-   /*   <script>
-   (function () {
-   var app = "https://script.google.com/macros/s/AKfycbzCus6mTW7OeMEY7VYwH-Rr0RxYhuXT5qUuHZLBNZ9N8aJJ0O8E/exec",
-      output = '',
-      xhr = new XMLHttpRequest();
-   xhr.open('GET', app);
-   xhr.onreadystatechange = function() {
-     if (xhr.readyState !== 4) return;
-
-     if (xhr.status == 200) {
-        try {
-            var r = JSON.parse(xhr.responseText),
-               result = r["result"];
-            for (var i = 0; i < result.length; i++){
-                  var obj = r["result"][i];
-                  output += obj.join("<br/>") + "<br/><hr/>";
-            }
-        } catch(e) {}
-     } 
-     
-   document.getElementById('info').innerHTML = output;
-
-   }
-   xhr.send()
-})()
     </script>
-*/
-<div id="info"></div>
-
     <script>
     function tableSearch() {
     var phrase = document.getElementById('search-text');
